@@ -21,7 +21,7 @@ function App() {
         </div>
       </div>
       <div className="py-3">
-        <h2 className="text-primary">Toadas as Vendas</h2>
+        <h2 className="text-primary">Todas as Vendas</h2>
       </div>
       <DataTable/>
     </div>
