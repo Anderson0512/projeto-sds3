@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { type } from 'os';
 import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
