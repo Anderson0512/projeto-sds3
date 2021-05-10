@@ -13,7 +13,7 @@ export default function Dashboard() {
             <div className="container">
                 <h1 className="text-primary py-3">Dashboard de Vendas</h1>
                 <div>
-                    <a href="https://sds-janderson.herokuapp.com" className="btn btn-primary" target="_blank">Atualizar BD</a>
+                    <a href="https://sds-janderson.herokuapp.com" className="btn btn-primary" target="_blank" rel="noreferrer">Atualizar BD</a>
                 </div>
                 <div className="row px-3">
                     <div className="col-sm-6">
