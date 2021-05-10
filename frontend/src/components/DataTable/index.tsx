@@ -24,6 +24,9 @@ export default function DataTable() {
             .then(response => {
                 setPage(response.data);
             });
+        axios.get('https://sds-janderson.herokuapp.com/').then(() => {
+            alert('Atualizando BD');
+        });
     }, [activePage]);
 
 
