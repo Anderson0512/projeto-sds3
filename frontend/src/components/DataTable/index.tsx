@@ -26,7 +26,9 @@ export default function DataTable() {
             });
         axios.get('https://sds-janderson.herokuapp.com/').then(() => {
             alert('Atualizando BD');
-        });
+        }).catch(erro => {
+            alert('Aguarde, carregando BD!!!')
+        })
     }, [activePage]);
 
 
